@@ -1,0 +1,249 @@
+.redes {
+    background: linear-gradient(90deg, #8B4513, #CD853F); /* Degradado marrón */
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 5px;
+    border-bottom: 3px solid #6B4226; /* Borde inferior */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+.icono {
+    transform: scale(2);
+    transition: transform 0.3s ease-in-out; /* Animación al hacer hover */
+    color: #FFE4C4;
+}
+.icono:hover {
+    transform: scale(2.5); /* Agrandado en hover */
+}
+.logo {
+    margin-left: 10px;
+}
+.opciones {
+    background: linear-gradient(to right, #FFF5EE, #FFE4C4); /* Fondo suave */
+    width: auto;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Sombra ligera */
+}
+.boton1 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    font-size: 22px;
+    margin-right: 10px;
+    padding: 5px;
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    color: #5A2E0C; /* Marrón oscuro */
+}
+.boton1 ul li {
+    transition: color 0.3s ease-in-out; /* Animación de color */
+}
+.boton1 ul li:hover {
+    color: #D2691E; /* Cambio de color en hover */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra de texto */
+}
+.opcion{
+    color: #8B4513;
+}
+.imagendefondo {
+    position: relative;
+    height: 100vh; /* altura de la sección */
+    background-size: cover;
+    background-position: center;
+  }
+  .principal {
+    background-image:url('imagen/cafe\ 2.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px;
+    margin-top: -10%;
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 15px;
+    font-family: "Yuji Mai", serif;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.contenidouno h2{
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-family: "Yuji Mai", serif;
+}
+
+.contenidouno p{
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family:"Yuji Mai", serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+.button:hover {
+    background-color: #8B4513;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+.img-normal {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+}
+  .section-content {
+    padding: 40px 0;
+}
+.seccion1{
+    background-color: #FFE4C4;
+}
+.imagen1{
+    padding: 20px;
+    border-radius: 30px;
+    width: 70%;
+    margin-left: 20%;
+}
+.titulo1{
+    color:#8B4513;
+    margin-left:40px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.titulo2{
+    color:#8B4513;
+    margin-left:40px;
+    font-family: monospace;
+}
+
+.seccion2{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.titulo3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    background-color: antiquewhite; 
+    color:#8B4513 ;    
+}
+.final{
+    text-align: center;
+    color: #8B4513;
+    background-color:#FFE4C4 ;
+}
+.seccion3{
+    background-color:antiquewhite;
+}
+
+.imagen {
+    width: 90%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 25px;
+    border: 3px solid rgb(241, 186, 83);
+  }
+  .galeria {
+    margin-top: 30px;
+}
+.footer {
+    background-color: #8B4513;
+    color: antiquewhite; 
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+/*AQUI COMIENZA LA PAGINA 2*/
+.trabajo{
+    text-align: center;
+    background-color:#8B4513 ;
+    color:#FFE4C4 ;
+    font-family: "Yuji Mai", serif;
+    border-radius: 0px 0px 12px 12px;
+
+}
+.table{
+    border-color: #ddb96a;
+}
+.ubicacion{
+    text-align: center;
+    background-color:antiquewhite ;
+    color:#8B4513 ;
+    font-family:monospace;
+    border-radius: 25px;
+
+}
+.isil{
+    border-radius: 25px;
+}
+.imagen2{
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 25px;
+    width: 50%;
+}
+.ubicacion2{
+    text-align: center;
+    background-color:#8B4513;
+    color: antiquewhite;
+    font-family:monospace;
+    border-radius: 25px;
+}
+.imagen4{
+    border-radius: 20px;
+    width: 90%;
+    height: auto;
+    object-fit: cover
+}
+.parrafo{
+    margin-top: 20%;
+    color: #8B4513;
+}
+
+
+
+
+
+
+
+

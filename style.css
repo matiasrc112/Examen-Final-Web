@@ -1,0 +1,755 @@
+.redes {
+    background: linear-gradient(90deg, #8B4513, #CD853F); /* Degradado marrón */
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 5px;
+    border-bottom: 3px solid #6B4226; /* Borde inferior */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+.icono {
+    transform: scale(2);
+    transition: transform 0.3s ease-in-out; /* Animación al hacer hover */
+    color: #FFE4C4;
+}
+.icono:hover {
+    transform: scale(2.5); /* Agrandado en hover */
+}
+.logo {
+    margin-left: 10px;
+}
+.opciones {
+    background: linear-gradient(to right, #FFF5EE, #FFE4C4); /* Fondo suave */
+    width: auto;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Sombra ligera */
+}
+.boton1 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    font-size: 22px;
+    margin-right: 10px;
+    padding: 5px;
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    color: #5A2E0C; /* Marrón oscuro */
+}
+.boton1 ul li {
+    transition: color 0.3s ease-in-out; /* Animación de color */
+}
+.boton1 ul li:hover {
+    color: #D2691E; /* Cambio de color en hover */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra de texto */
+}
+.opcion{
+    color: #8B4513;
+}
+
+
+
+
+
+
+
+.cajas1 {
+    background-color: #AFEEEE; /* Azul pastel */
+    width: auto;
+    height: 359px;
+
+    position: relative;
+    height: 300px;
+    background: url('https://images.pexels.com/photos/1551346/pexels-photo-1551346.jpeg') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto1 {
+    display: grid;
+    grid-template-columns: 340px;
+    grid-template-rows: 80px 80px 80px 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: 60%;
+    padding-right: 0%; 
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #ffffff; /* Verde bosque */
+}
+.ingreso {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #FFE4C4;
+    width: 160px;
+    padding: 10px;
+    justify-self: center;
+    background-color: #8B4513;
+    color: white;
+    border-radius: 10px;
+    border: 10px;
+    font-family: 'Arial', sans-serif;
+}
+button {
+    width: 160px;
+    margin-left: 30px;
+    justify-self: center;
+}
+
+.cajas2 {
+    background-color: #8B4513; /* Azul claro */
+    width: auto;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto2 {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    color: antiquewhite; /* Gris oscuro */
+}
+
+.cajas3 {
+    background-color: antiquewhite; /* Azul pálido */
+    width: auto;
+    height: 280px;
+}
+.texto3 {
+    padding: 10px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    color: #8B4513; /* Gris tenue */
+}
+.locales {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.local {
+    text-align: center;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.local img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+.local img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.local p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #8B4513;
+    font-family: 'Arial', sans-serif;
+}
+
+.cajas4 {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.cajas4 h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 24px;
+    color: antiquewhite; /* Azul medianoche */
+    background-color: #8B4513;
+}
+
+.cajas4 .video {
+    display: block;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cajas5 {
+    text-align: center;
+    max-width: auto;
+    background-color: #8B4513;
+}
+
+.cajas5 h2 {
+    font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    color: antiquewhite; /* Índigo */
+    margin-bottom: 20px;
+}
+
+.cajas5 .local {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.cajas5 img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.cajas5 p {
+    font-size: 14px;
+    color: antiquewhite;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+.cajas5 button {
+    background-color: antiquewhite; /* Azul real */
+    color: #8B4513;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cajas5 button a {
+    text-decoration: none;
+    color: #8B4513;
+    font-family: Arial, sans-serif;
+}
+
+.cajas5 button:hover {
+    background-color: #483D8B;
+    transform: scale(1.05);
+}
+.cajas6, .cajas7 {
+    width: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: antiquewhite;
+}
+
+.cajas6 h2, .cajas7 h2 {
+    font-size: 28px;
+    font-style: italic;
+    color: #8B4513; /* Color marrón */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #8B4513;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: #8B4513; /* Color beige claro */
+    font-weight: bold;
+}
+
+.cajas7 .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajas7 img {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5A3221;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.caja8 {
+    background-color: #8B4513; /* Marrón oscuro */
+    color: antiquewhite; /* Dorado */
+    padding: 20px;
+    text-align: center;
+}
+
+.caja8 .final {
+    font-family: 'Playfair Display', serif; /* Elegante y clásico */
+    font-size: 20px;
+    margin: 0;
+}
+
+.caja8 h2:hover {
+    color: antiquewhite; /* Naranja oscuro brillante */
+    text-shadow: 1px 1px 2px #000000; /* Sombra para destacar el texto */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.redes {
+    background: linear-gradient(90deg, #8B4513, #CD853F); /* Degradado marrón */
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 5px;
+    border-bottom: 3px solid #6B4226; /* Borde inferior */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+.icono {
+    transform: scale(2);
+    transition: transform 0.3s ease-in-out; /* Animación al hacer hover */
+    color: #FFE4C4;
+}
+.icono:hover {
+    transform: scale(2.5); /* Agrandado en hover */
+}
+.logo {
+    margin-left: 10px;
+}
+.opciones {
+    background: linear-gradient(to right, #FFF5EE, #FFE4C4); /* Fondo suave */
+    width: auto;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Sombra ligera */
+}
+.boton1 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    font-size: 22px;
+    margin-right: 10px;
+    padding: 5px;
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    color: #5A2E0C; /* Marrón oscuro */
+}
+.boton1 ul li {
+    transition: color 0.3s ease-in-out; /* Animación de color */
+}
+.boton1 ul li:hover {
+    color: #D2691E; /* Cambio de color en hover */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra de texto */
+}
+.opcion{
+    color: #8B4513;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #8B4513;
+}
+
+
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carta-menu {
+    position: relative;
+    height: 300px;
+    background: url('https://images.pexels.com/photos/1551346/pexels-photo-1551346.jpeg') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carta-contenedor {
+    background: rgba(0, 0, 0, 0.5); /* Efecto oscuro transparente */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.carta-texto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.carta-texto p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.boton-descarga {
+    text-decoration: none;
+    background-color: #8b4513; /* Verde */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.boton-descarga:hover {
+    background-color: antiquewhite;
+    color: #8b4513;
+}
+
+
+
+
+
+.download-button {
+    background-color: antiquewhite; /* Verde bosque */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    color: #8B4513;
+}
+
+.download-button a {
+    text-decoration: none;
+    color: #8B4513;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+}
+
+.download-button:hover {
+    background-color: antiquewhite; /* Verde más oscuro */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.download-button:active {
+    transform: scale(0.95); /* Reduce ligeramente al hacer clic */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-image: url('hero-placeholder.jpg');
+    background-size: cover;
+    background-position: center;
+    color: antiquewhite;
+    padding: 4rem 2rem;
+}
+
+.hero .btn {
+    background-color: #000;
+    color: antiquewhite;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Menu Section */
+.menu-section{
+    background-color: #8B4513;
+}
+
+.menu-section, .traditions-section, .locations-section {
+    padding: 2rem;
+    text-align: center;
+}
+.menu-section h2{
+    color: antiquewhite;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.traditions-section h2, .locations-section h2 {
+    color: #8B4513;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Traditions Section */
+.traditions-section {
+    background-color: #FFE4C4; /* Verde */
+    color: #8B4513;
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+}
+
+.traditions-section .image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    height: 140px;
+}
+.p{
+    color: antiquewhite;
+}
+
+
+
+/* Locations Section */
+.title-container {
+    display: flex;               /* Utiliza flexbox para la alineación */
+    justify-content: center;     /* Centra el contenido horizontalmente */
+    align-items: center;         /* Centra el contenido verticalmente */
+    height: 100px;               /* Ajusta la altura del contenedor */
+}
+
+.title-container h2 {
+    text-align: center;          /* Centra el texto dentro del h2 */
+    margin: 0;                   /* Elimina márgenes para un control más preciso */
+    font-size: 24px;             /* Ajusta el tamaño de la fuente según lo necesites */
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.locations-container {
+    display: grid; /* Mantén el diseño en dos columnas */
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    gap: 20px; /* Espaciado entre elementos */
+    justify-content: center;
+    align-items: start;
+    margin: 0 auto;
+}
+
+.location {
+    display: flex; /* Usa Flexbox para organizar imagen y texto en fila */
+    flex-direction: row; /* Imagen a la izquierda y texto a la derecha */
+    align-items: center; /* Centra la imagen y texto verticalmente */
+    gap: 15px; /* Espacio entre imagen y texto */
+    margin: 40px;
+    justify-content: space-around;
+}
+
+.location img {
+    width: 200px; /* Ajusta el ancho de la imagen */
+    height: 150px; /* Ajusta la altura de la imagen */
+    object-fit: cover; /* Recorta la imagen para encajar bien */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.location p {
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    color: #555; /* Color del texto */
+    margin: 0; /* Sin márgenes adicionales */
+    line-height: 1.5; /* Altura de línea */
+    max-width: 300px; /* Limita el ancho del texto */
+    overflow: hidden; /* Asegura que no haya texto que desborde */
+    text-overflow: ellipsis; /* Muestra "..." si el texto es demasiado largo */
+    display: -webkit-box; /* Habilita el recorte con líneas */
+    -webkit-line-clamp: 3; /* Limita a 3 líneas de texto */
+    -webkit-box-orient: vertical;
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #8b4513; /* Marrón */
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.caja8 {
+    background-color: #8B4513; /* Marrón oscuro */
+    color: antiquewhite; /* Dorado */
+    padding: 20px;
+    text-align: center;
+}
+
+.caja8 .final {
+    font-family: 'Playfair Display', serif; /* Elegante y clásico */
+    font-size: 20px;
+    margin: 0;
+}
+
+.caja8 h2:hover {
+    color: antiquewhite; /* Naranja oscuro brillante */
+    text-shadow: 1px 1px 2px #000000; /* Sombra para destacar el texto */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
